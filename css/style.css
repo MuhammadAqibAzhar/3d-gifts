@@ -1,0 +1,1497 @@
+/* Font-Families */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@font-face {
+    font-family: 'sofiapro';
+    src: url(../fonts/sofiapro-light.woff);
+}
+
+@font-face {
+    font-family: 'sofiapro';
+    src: url(../fonts/SofiaProBlack.woff);
+}
+
+@font-face {
+    font-family: 'sofiapro';
+    src: url(../fonts/SofiaProMedium.woff);
+}
+
+
+@font-face {
+    font-family: 'sofiapro';
+    src: url(../fonts/SofiaProSemiBold.woff);
+}
+
+@font-face {
+    font-family: 'sofiapro';
+    src: url(../fonts/SofiaProRegular.woff);
+}
+
+
+/* Generic Css */
+*:focus{
+    outline: unset;
+}
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #fff;
+    scroll-behavior: smooth;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;-family: 'Rubik', sans-serif;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style: none;
+}
+
+/* Custom Css */
+
+/* Container */
+
+.headerContainer {
+    position: relative;
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* Header Css */
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+.headerTopBar {
+    position: relative;
+    background: #363636;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.headerTopBar p {
+    color: #fff;
+}
+
+.topHeader {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #074495;
+    padding: 20px 50px;
+}
+
+.topHeaderLeft {
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.headerSocioList {
+    position: relative;
+    margin-right: 10px;
+}
+
+.headerSocioList ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topHeaderInfo {
+    position: relative;
+}
+
+.topHeaderInfo ul {
+    display: flex;
+    align-items: center;
+}
+
+.headerSocioList ul li a {
+    color: #fff;
+}
+
+.topHeaderInfo ul li a {
+    color: #fff;
+}
+
+.headerSocioList ul li {
+    padding: 0 10px;
+}
+
+.topHeaderInfo ul li {
+    position: relative;
+    padding: 0 10px;
+}
+
+.topHeaderRight {
+    position: relative;
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.topHeaderstateSelect {
+    position: relative;
+    margin: 0 10px;
+}
+
+.topHeaderstateSelect select {
+    background: #074495;
+    border: 0px;
+    color: #fff;
+    outline: none;
+}
+
+.topHeaderstateSelect select option {
+    counter-reset: #000;
+}
+
+.topHeaderSignUp {
+    position: relative;
+    margin: 0 20px;
+}
+
+.topHeaderSignUp a {
+    position: relative;
+    color: #fff;
+    font-size: 14px;
+}
+
+.topHeaderSignUp a span {
+    margin-right: 5px;
+}
+
+.topHeaderCartOption {
+    position: relative;
+    margin: 0 20px;
+}
+
+.headerCartInner {
+    position: relative;
+}
+
+.headerCartInner button {
+    position: relative;
+    background: transparent;
+    color: #fff;
+    border: 0px;
+    outline: none;
+}
+
+.headerCartInner button span {
+    margin-left: 5px;
+}
+
+.mainHeader {
+    position: relative;
+    padding: 20px 50px;
+}
+
+.mainHeaderFlex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainMenuLeft {
+    position: relative;
+    width: 40%;
+}
+
+.mainMenuLeftInner {
+    position: relative;
+}
+
+.mainMenuLeftInner ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.mainMenuLeftInner ul li {
+    padding: 0 15px;
+}
+
+.mainMenuLogo {
+    position: relative;
+    width: 20%;
+}
+
+.mainMenuright {
+    position: relative;
+    width: 40%;
+    text-align: right;
+}
+
+.mainMenurightInner {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rightMenuItems ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.rightMenuItems ul li {
+    padding: 0 15px;
+}
+
+.mainMenuLeftInner ul li a {
+    color: #363636;
+}
+
+.rightMenuItems ul li a {
+    color: #363636;
+}
+
+.rightMainMenuSearch {
+    position: relative;
+    margin-left: 20px;
+}
+
+.rightMainMenuSearch input {
+    position: relative;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: 1px solid #A3A3A3;
+    outline: none;
+    color: #A3A3A3;
+    padding-left: 30px;
+}
+
+.rightMainMenuSearch button {
+    position: absolute;
+    color: #A3A3A3;
+    outline: navajowhite;
+    border: 0px;
+    background: transparent;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    font-size: 16px;
+    margin: auto;
+}
+
+.rightMainMenuSearch input::placeholder {
+    color: #A3A3A3;
+    font-size: 14px;
+}
+
+.mainMenuLogoInner {
+    position: relative;
+}
+
+.mainMenuLogoInner img {
+    display: block;
+    margin: 0 auto;
+}
+/* Home Page Css */
+section.homeBannerSlider {
+    position: relative;
+}
+
+.choiceSingleSlide {
+    position: relative;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choiceContentContainer {
+    position: relative;
+    width: 80%;
+}
+
+.choiceContentContainer h2 {
+    color: #fff;
+    font-size: 50px;
+    max-width: 40%;
+    line-height: 50px;
+}
+
+.choiceContentContainer p {
+    color: #fff;
+    padding: 15px 0px;
+    max-width: 25%;
+    line-height: 24px;
+}
+
+.choiceAnchors {
+    position: relative;
+    margin-top: 20px;
+}
+
+a.choiceShopAnchor {
+    position: relative;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7), #5B88BC);
+}
+
+.choiceAnchors a {
+    min-width: 150px;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 15px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+a.choiceCreateAnchor {border: 1px solid #fff;}
+
+.choiceAnchors a:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+.customerChoiceSlider .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+}
+
+.customerChoiceSlider .owl-dots button.owl-dot, .customerChoiceSlider .owl-dots button.owl-dot span {
+    position: relative;
+}
+
+.customerChoiceSlider .owl-dots button.owl-dot span {
+    width: 7px;
+    height: 7px;
+}
+
+.customerChoiceSlider .owl-dots button.owl-dot {
+    position: relative;
+    margin: 0 5px;
+}
+
+.customerChoiceSlider .owl-dots button.owl-dot span::after {
+    position: absolute;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.customerChoiceSlider .owl-dots button.owl-dot span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customerChoiceSlider .owl-dots button.owl-dot.active span::after {
+    content: "";
+}
+
+
+section.weTurnHappy {
+    position: relative;
+    padding: 40px 0px;
+    background: linear-gradient(180deg, #DEEDFF, transparent);
+}
+
+.weTurnHappyMain {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.weTurnHappyLeft {
+    position: relative;
+    width: 45%;
+}
+
+.weTurnHappyRight {
+    position: relative;
+    width: 45%;
+}
+
+.weTurnHappyRightInner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.weTurnHappyLeft img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.weTurnHappyRightInner h3 {
+    font-size: 26px;
+    line-height: 24px;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.weTurnHappyRightInner p {
+    padding: 20px 0px;
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 26px;
+}
+
+.weTurnHappyRightInner a {
+    position: relative;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7), #5B88BC);
+    min-width: 150px;
+    display: inline-block;
+    text-align: center;
+    padding: 12px 15px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+section.shopShape {
+    position: relative;
+    padding: 40px 0px;
+}
+
+.shopShapeMain {
+    position: relative;
+}
+
+.shopShapeHeading {
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.shopShapeHeading h3 {
+    color: #363636;
+    text-transform: capitalize;
+    font-size: 26px;
+}
+
+.shopShapeFlex {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.shopShapeSingle {
+    position: relative;
+    width: 23%;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.shapedProductImageBox {
+    position: relative;
+    min-height: 350px;
+    margin-bottom: 10px;
+    max-height: 420px;
+}
+
+.shapedProductImageBox img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
+
+.shapedProductSpecs {
+    position: relative;
+    text-align: center;
+}
+
+.shapedProductSpecs h4 {
+    color: #363636;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+.shapedProductSpecs p {
+    color: #363636;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.shapedProductCart {
+    position: relative;
+}
+
+button.addToCartAnchor {
+    position: relative;
+    border: 1px solid #074495;
+    color: #074495;
+    width: 100%;
+    background: transparent;
+    transition: 0.4s ease-in-out;
+    padding: 15px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+
+button.addToCartAnchor:hover {
+    background: linear-gradient(45deg, transparent, #00499c);
+    color: #fff;
+}
+
+section.optionSection {
+    position: relative;
+    padding: 20px 0px;
+}
+
+.optionSectionMain {
+    position: relative;
+}
+
+.optionSectionFlex {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.optionSectionSingle {
+    position: relative;
+    width: 49%;
+    margin-bottom: 20px;
+}
+
+.optionSingleImageBox {
+    position: relative;
+    min-height: 650px;
+    margin-bottom: 30px;
+}
+
+.optionSingleImageBox img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.optionSingleAnchor {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.optionSingleAnchor a {
+    position: relative;
+    color: #363636;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.optionSingleAnchor a::after {
+    position: absolute;
+    left: -13px;
+    right: 0;
+    width: 120%;
+    height: 10px;
+    background: #D2E6FD;
+    content: "";
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+section.accessoriesSection {
+    position: relative;
+    height: 750px;
+}
+
+.accessoriesSectionMain {
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.accessoriesSectionContent {
+    position: relative;
+    width: 600px;
+}
+
+.accessoriesSectionContent h3 {
+    color: #fff;
+    font-size: 26px;
+    line-height: 24px;
+}
+
+.accessoriesSectionContent p {
+    font-size: 16px;
+    max-width: 80%;
+    line-height: 28px;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+.accessoriesSectionContent a {
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+section.shopProducts {
+    position: relative;
+    padding: 40px 0px;
+}
+
+.shopProductsMain {
+    position: relative;
+}
+
+.shopProductsHeading {
+    position: relative;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.shopProductsHeading h3 {
+    color: #363636;
+    font-size: 26px;
+}
+
+
+.shopProductsFlex {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shopProductsSingleBox {
+    position: relative;
+    width: 24%;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+.shopProductsImage {
+    position: relative;
+    min-height: 380px;
+    max-height: 450px;
+}
+
+.shopProductsImage img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.shopProductsSpecs {
+    position: relative;
+    text-align: center;
+}
+
+.shopProductsSpecs h4 {
+    color: #363636;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.shopProductsSpecs p {
+    font-size: 18px;
+    color: #363636;
+    padding-bottom: 10px;
+}
+
+section.feelGoodSection {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 100px 0px;
+}
+
+.feelGoodMain {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+.feelGoodContent {
+    position: relative;
+}
+
+.feelGoodContent h3 {
+    color: #fff;
+    font-size: 26px;
+}
+
+.feelGoodContent p {
+    position: relative;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.feelGoodContent a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+section.feelGoodSection::after {
+    position: absolute;
+    left: 0;right: 0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    content: "";
+    background: rgba(0, 0, 0, 0.2);z-index: 0;
+}
+
+section.contact3DSection {
+    position: relative;
+    padding: 40px 0px;
+    background: linear-gradient(180deg, #DEEDFF, transparent);
+}
+
+.contact3DMain {
+    position: relative;
+}
+
+.contact3DFlex {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact3DLeft {
+    position: relative;
+    width: 45%;
+}
+
+.contact3DRight {
+    position: relative;
+    width: 45%;
+}
+
+.contact3DImageBox {
+    position: relative;
+    width: 100%;
+}
+
+.contact3DImageBox img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contact3DContent p {
+    color: #000;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0;
+}
+
+.contact3DContent ul li {
+    color: #000;
+    font-size: 16px;
+}
+
+.contact3DContent ul {
+    padding: 10px 0px;
+}
+
+.contact3DContent ul li a {
+    color: #074495;
+    padding-left: 5px;
+}
+
+.contact3DHeading {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.singleInput3D {
+    padding: 25px 0px;
+}
+
+.contact3DHeading h3 {
+    font-size: 28px;
+    color: #363636;
+}
+
+.contact3DForm {
+    position: relative;
+}
+
+.contact3DForm form {
+    position: relative;
+}
+
+.singleInput3D {
+    position: relative;
+}
+
+.singleInput3D input {
+    position: relative;
+    width: 100%;
+    max-width: 97%;
+    padding: 15px 10px;
+    border-radius: 30px;
+    border: 1px solid #5B88BC;
+    color: #808080;
+}
+
+.singleInput3D label {
+    position: absolute;
+    top: -8px;
+    left: 5px;
+}
+
+.singleInput3D textarea {
+    position: relative;
+    width: 100%;
+    max-width: 97%;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border: 1px solid #5B88BC;
+    resize: none;
+    font-family: 'Lato';
+    color: #808080;
+}
+
+.singleInput3D input::placeholder, .singleInput3D textarea::placeholder {
+    color: #808080;
+    font-weight: 600;
+}
+
+.FormSubmitButton3D {
+    position: relative;
+    text-align: right;
+}
+
+.FormSubmitButton3D button {
+    position: relative;
+    background: linear-gradient(45deg, transparent, #0072f5);
+    padding: 12px 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    border: 0px;
+    cursor: pointer;
+}
+
+section.newsLetterSection {
+    position: relative;
+    padding: 60px 0px;
+    background: #5B88BC;
+    height: 300px;
+}
+
+.newsLetterMain {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsLetterHeading {
+    position: relative;
+    text-align: center;
+}
+
+.newsLetterHeading h3 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.newsLetterHeading p {
+    color: #fff;
+    line-height: 26px;
+}
+
+.newsLetterForm {
+    position: relative;
+    margin-top: 20px;
+}
+
+.newsLetterForm {
+    position: relative;
+}
+
+.newsLetterForm form {
+    position: relative;
+}
+
+.newsLetterForm form input {
+    position: relative;
+    width: 100%;
+    max-width: 97%;
+    padding: 15px 0px 15px 15px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background: transparent;
+    color: #fff;
+}
+
+.newsLetterForm form input::placeholder {
+    color: #fff;
+}
+
+.newsLetterForm form button {
+    position: absolute;
+    right: -1px;
+    top: 0;
+    padding: 16px 25px;
+    border-radius: 30px;
+    border: 0px;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    padding: 40px 0px 0px;
+}
+
+.footerMain {
+    position: relative;
+}
+
+.footerFlex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.footerSingleColumn {
+    position: relative;
+    width: 20%;
+}
+
+.footerLogo {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.footerSocioList {
+    position: relative;
+}
+
+.footerSocioList ul {
+    display: flex;
+}
+
+.footerSocioList ul li {
+    padding: 0 10px;
+}
+
+.footerSocioList ul li a {
+    color: #5B88BC;
+    transition: 0.4s ease-in-out;
+    font-size: 18px;
+}
+
+.footerSocioList ul li a:hover {
+    color: #074495;
+}
+
+.footerColHeading {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.footerColHeading h4 {
+    color: #363636;
+}
+
+.footerColumnsList {
+    position: relative;
+}
+
+.footerColumnsList ul li a {
+    color: #363636;
+    line-height: 20px;
+}
+
+.footerColumnsList ul li {
+    padding: 9px 0px;
+}
+
+.bottomFooter {
+    position: relative;
+    padding: 10px 0px;
+    border-top: 1px solid #363636;
+}
+
+.bottomFooterInner {
+    position: relative;
+}
+
+.bottomFooterInner p {
+    color: #363636;
+    font-size: 14px;
+}
+
+
+.mobile-menu,
+.nav-toggler{
+    display: none;
+}
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 1681px) {
+    .headerContainer {
+        padding: 0 50px;
+    }
+    .container {
+        max-width: 1820px;
+    }
+}
+
+@media only screen and (max-width: 1680px) {
+    .headerContainer {
+        padding: 0 50px;
+    }
+    .container {
+        max-width: 1540px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .headerContainer {
+        padding: 0 50px;
+    }
+    .container {
+        max-width: 1340px;
+    }
+    .topHeader {
+        padding: 20px 20px;
+    }
+    .mainHeader {
+        padding: 20px 20px;
+    }
+    .optionSingleImageBox {
+        min-height: 480px;
+        max-height: 480px;
+    }
+    section.accessoriesSection {
+        height: 600px;
+    }
+    .shopProductsSingleBox {
+        margin-right: 15px;
+    }
+    .shopProductsSingleBox {
+        width: 22%;
+    }
+    .mainMenuLeftInner ul li {
+        padding: 0 10px;
+    }
+    .weTurnHappyRightInner h3 {
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .container {
+        max-width: 1180px;
+    }
+    .shopShapeSingle {
+        width: 21%;
+    }
+    .shapedProductImageBox {
+        min-height: 300px;
+        max-height: 300px;
+    }
+    .shopProductsImage {
+        position: relative;
+        min-height: 300px;
+        max-height: 300px;
+    }
+    .accessoriesSectionMain {
+        background-position: initial;
+    }
+
+    .mainMenuLeftInner ul li a,
+    .rightMenuItems ul li a,
+    .topHeaderInfo ul li a,
+    .headerTopBar p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .container {
+        max-width: 980px;
+    }
+    .shapedProductImageBox {
+        min-height: 230px;
+        max-height: 230px;
+    }
+    .topHeader {
+        padding: 20px 10px;
+    }
+    .mainHeader {
+        padding: 20px 10px;
+    }
+    .mainMenuLeftInner ul li a {
+        font-size: 12px;
+    }
+    .rightMenuItems ul li a {
+        font-size: 12px;
+    }
+    
+    .rightMenuItems ul li {
+        padding: 0 10px;
+    }
+    .choiceContentContainer h2 {
+        max-width: 60%;
+    }
+    .choiceContentContainer p {
+        max-width: 40%;
+    }
+    section.feelGoodSection {
+        height: 300px;
+    }
+    .weTurnHappyRightInner p {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        padding: 0 20px;
+    }
+    .topHeaderInfo ul li a {
+        font-size: 12px;
+    }
+    
+    .topHeaderSignUp {
+        margin: 0 10px;
+    }
+    
+    .topHeaderCartOption {
+        margin: 0 10px;
+    }
+    .choiceContentContainer h2 {
+        max-width: 60%;
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .choiceContentContainer p {
+        max-width: 50%;
+    }
+
+    .mainMenuLogo {
+        width: 100%;
+        order: 1;
+    }
+
+    .mainMenuLeft {
+        order: 2;
+        width: 55%;
+    }
+
+    .mainMenuright {
+        order: 3;
+        width: 45%;
+    }
+
+    .rightMenuItems {
+        width: 50%;
+    }
+
+    .rightMainMenuSearch {
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .rightMainMenuSearch input {
+        width: 100%;
+    }
+    .choiceSingleSlide {
+        height: 450px;
+        background-position: right;
+    }
+    .shapedProductImageBox {
+        min-height: 180px;
+        max-height: 350px;
+    }
+    .shapedProductSpecs {
+        min-height: 70px;
+    }    
+    .optionSingleImageBox {
+        min-height: 280px;
+        max-height: 280px;
+    }
+    .shopProductsImage {
+        min-height: 200px;
+        max-height: 200px;
+    }
+    .shopProductsSpecs h4 {
+        min-height: 30px;
+    }
+    section.feelGoodSection {
+        height: 200px;
+    }
+    .footerColumnsList ul li a {
+        font-size: 12px;
+    }
+    
+    .footerColumnsList ul li {
+        padding: 5px 0px;
+    }
+    .weTurnHappyRightInner h3 {
+        max-width: 90%;
+        font-size: 20px;
+    }
+
+    .shopShapeSingle {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    .shopShapeSingle{
+        margin-right: 18px;
+        margin-left: 18px;
+    }
+    .shopProductsSingleBox {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    .shopProductsImage{
+        max-height: 350px;
+    }
+    .shopProductsSpecs{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .mainMenuLeft,
+    .mainMenuright{
+        display: none;
+    }
+    .choiceContentContainer h2,
+    .choiceContentContainer p{
+        max-width: 100%;
+    } 
+    .choiceAnchors a{
+        font-size: 14px;
+        padding: 12px 10px;
+        min-width: 120px;
+    }
+    .weTurnHappyLeft {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .weTurnHappyRight {
+        width: 100%;
+        padding: 0px 15px;
+    }
+    .shopShapeSingle {
+        width: 100%;
+    }
+    .shopShapeSingle {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .optionSectionFlex{
+        flex-wrap: wrap;
+    }
+    .optionSectionSingle {
+        width: 100%;
+    }
+    .shopProductsSingleBox {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .feelGoodMain{
+        justify-content: center;
+        text-align: center;
+    }
+    .contact3DLeft,
+    .contact3DRight{
+        width: 100%;
+    }
+    .footerSingleColumn {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .bottomFooterInner p{
+        font-size: 10px;
+    }
+    .accessoriesSectionContent p{
+        max-width: 100%;
+    }
+    .accessoriesSectionContent{
+        padding: 10px;
+        text-align: center;
+        max-width: 350px;
+    }
+
+    .contact3DContent p,
+    .contact3DContent ul li,
+    .singleInput3D label,
+    .accessoriesSectionContent p{
+        font-size: 14px;
+    }
+
+    .headerSocioList ul li {
+        padding: 0px 5px;
+    }
+    .headerSocioList ul li a{
+        font-size: 12px;
+    }
+    .topHeaderRight{
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .topHeaderLeft{
+        justify-content: center;
+    }
+    .topHeader{
+        flex-wrap: wrap;
+    }
+    .topHeaderLeft,
+    .topHeaderRight{
+        width: 100%;
+    }
+    .mainMenuLogoInner {
+        max-width: 150px;
+    }
+
+
+
+    .nav-toggler {
+        position: absolute;
+        display: block;
+        width: 25px;
+        height: 14px;
+        right: 0px;
+        top: 18px;
+        margin: auto;
+        z-index: 99;
+    }
+    .nav-toggler span {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #074495;
+        transition: 0.4s;
+    }
+    .nav-toggler span:nth-child(2) {
+        bottom: 0;
+    }
+    .nav-toggler span:nth-child(3) {
+        margin: auto;
+        top: 0;
+        bottom: 0;
+    }
+    .nav-active span:first-child {
+        -webkit-transform: rotate(-45deg) translate(-10px, 0px);
+        transform: rotate(-45deg) translate(-10px, 0px);
+    }
+    .nav-active span:nth-child(2) {
+        opacity: 0;
+    }
+    .nav-active span:last-child {
+        -webkit-transform: rotate(45deg) translate(-3px, 5px);
+        transform: rotate(45deg) translate(-3px, 5px);
+    }
+    .mobile-menu ul {
+        padding: 20px;
+    }
+    .mobile-menu ul li {
+        padding: 10px 0px;
+    }
+    .shopProductsSpecs h4 {
+        min-height: auto;
+    }
+
+    .optionSingleImageBox {
+        min-height: 240px;
+        max-height: 240px;
+    }
+    .newsLetterForm form button{
+        right: -6px;
+    }
+}
